@@ -1,0 +1,157 @@
+.homePageWrapper{   
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width:400px;
+  max-width: 90%;
+}
+
+footer, .ButtonsAside{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 0px;
+  color: #f8f8f2;
+}
+
+footer a{
+  color: #4aee88;
+  text-decoration: none;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.HomePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom:14px ;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn, .leaveBtn {
+  background: #4aee88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover{
+  background: #0b993d;
+}
+
+.createInfo{
+  /* margin-top: 20px; */
+  a{
+    color: #9fe2b9;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    text-decoration: none;
+
+    &:hover{
+      border-bottom: 1px solid #eee;
+      color:#0b993d;
+    }
+
+  }
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside{
+  background-color: #1c1e29;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName{
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid #424242 ;
+  padding-bottom: 10px;
+}
+
+.leaveBtn{
+  width: 100%;
+  margin-top: 20px;
+  background: #4aee88;
+  font-weight: bold;
+}
+
+.copyBtn{
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.leaveBtn:hover{
+  background: #38c569;
+}
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
